@@ -13,7 +13,7 @@ async function generateJoke() {
     },
   }
 
-  const res = await fetch('https://www.thecalculator.co/', config)
+  const res = await fetch('https://www.thecalculator.co/love/Love-Quotes-Generator-364.html', config)
 
   const data = await res.json()
 
