@@ -13,7 +13,7 @@ async function generateJoke() {
     },
   }
 
-  const res = await fetch('https://icanhazdadjoke.com', config)
+  const res = await fetch('https://www.reddit.com/r/memes', config)
 
   const data = await res.json()
 
